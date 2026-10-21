@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play &amp; Watch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <strong>PLAY<span>&amp;</span>WATCH</strong>
+        <small>Sport · Jeux vidéo · Cinéma</small>
+      </div>
+
+      <div class="navigation">
+        <button type="button">Accueil</button>
+        <a href="#actualites">Actus</a>
+        <a href="#tests-avis">Tests &amp; Avis</a>
+        <a href="#cinema">Cinéma</a>
+        <a href="#sport">Sport</a>
+        <a href="#jeux-video">Jeux Vidéo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h1><span class="title-sport">Sport</span> / <span class="title-gaming">Jeux vidéo</span> / <span class="title-cinema">Cinéma</span></h1>
+      <p>Trois univers, une même passion.</p>
+      <p>
+        Actualités, tests, critiques, analyses… Retrouvez tout ce que vous aimez
+        sur le sport, les jeux vidéo et le cinéma, au même endroit !
+      </p>
+      <a class="intro__link" href="#presentation">En savoir plus</a>
+    </section>
+
+    <section class="presentation" id="presentation">
+      <h2>Bienvenue sur Play &amp; Watch</h2>
+      <p>
+        Play &amp; Watch réunit au même endroit les passionnés de sport, de jeux
+        vidéo et de cinéma. Retrouvez des actualités, des analyses, des tests,
+        des critiques et des guides pour suivre vos univers préférés et
+        découvrir les nouveautés.
+      </p>
+    </section>
+
+    <section class="categories">
+      <div class="card sport" id="sport">
+        <h2>Sport</h2>
+        <p>Résultats, transferts, analyses, événements…</p>
+        <a href="https://www.lequipe.fr" target="_blank" rel="noopener noreferrer">Découvrir</a>
+      </div>
+
+      <div class="card jeux-video" id="jeux-video">
+        <h2>Jeux vidéo</h2>
+        <p>Tests, actualités, guides, sorties…</p>
+        <a href="https://www.xbox.com/fr-FR/xbox-game-pass" target="_blank" rel="noopener noreferrer">Découvrir</a>
+      </div>
+
+      <div class="card cinema" id="cinema">
+        <h2>Cinéma</h2>
+        <p>Sorties, critiques, bandes-annonces…</p>
+        <a href="https://www.allocine.fr" target="_blank" rel="noopener noreferrer">Découvrir</a>
+      </div>
+    </section>
+
+    <section class="actualites" id="actualites">
+      <h2>À la une</h2>
+      <a href="#actualites">Voir toutes les actualités</a>
+
+      <article class="article-card article-card--sport">
+        <div class="article-image article-image--mbappe">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/4/42/Kylian_Mbappe_at_Real_Madrid%27s_game_versus_Juventus_Turin_on_22_October_2025.jpeg"
+            alt="Kylian Mbappé avec le Real Madrid contre la Juventus en octobre 2025"
+          >
+          <div class="article-card__overlay"></div>
+          <span>Football</span>
+          <h3 class="article-card__title">
+            Kylian Mbappé : les dernières nouvelles
+          </h3>
+          <a
+            class="article-card__image-link"
+            href="https://www.lequipe.fr/Football/Actualites/Kylian-mbappe-encore-buteur-avec-le-real-madrid-avant-de-se-faire-une-frayeur/1719005"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Lire l’actualité de Kylian Mbappé sur L’Équipe"
+          ></a>
+        </div>
+
+        <div class="article-card__metadata">
+          <span class="article-card__date">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+              <path d="M16 2v4M8 2v4M3 10h18"></path>
+            </svg>
+            <time datetime="2025-04-12">12 avril 2025</time>
+          </span>
+
+          <span class="article-card__comments">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+              ></path>
+            </svg>
+            45
+          </span>
+        </div>
+      </article>
+
+      <!-- Carte Jeux vidéo -->
+      <article class="article-card article-card--gaming">
+        <div class="article-card__image">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/2/26/Call_Of_Duty_4_Modern_Warfare.jpg"
+            alt="Call of Duty 4: Modern Warfare"
+          >
+
+          <div class="article-card__overlay"></div>
+          <span class="article-card__category">Jeux vidéo</span>
+
+          <h3 class="article-card__title">
+            Call of Duty 4 : Modern Warfare, le FPS culte
+          </h3>
+          <a
+            class="article-card__image-link"
+            href="https://fr.wikipedia.org/wiki/Call_of_Duty_4:_Modern_Warfare"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Découvrir Call of Duty 4 : Modern Warfare"
+          ></a>
+        </div>
+
+        <div class="article-card__metadata">
+          <span class="article-card__date">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+              <path d="M16 2v4M8 2v4M3 10h18"></path>
+            </svg>
+
+            <time datetime="2025-04-11">11 avril 2025</time>
+          </span>
+
+          <span class="article-card__comments">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+              ></path>
+            </svg>
+            32
+          </span>
+        </div>
+      </article>
+
+      <!-- Carte Cinéma -->
+      <article class="article-card article-card--cinema">
+        <div class="article-card__image">
+          <img
+            src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Keanu_Reeves%2C_John_Wick_Red_Carpet%2C_Fantastic_Fest_2014_Austin%2C_Texas_2014--11_%2821131325711%29.jpg/960px-Keanu_Reeves%2C_John_Wick_Red_Carpet%2C_Fantastic_Fest_2014_Austin%2C_Texas_2014--11_%2821131325711%29.jpg"
+            alt="Keanu Reeves dans le rôle de John Wick"
+          >
+
+          <div class="article-card__overlay"></div>
+          <span class="article-card__category">Cinéma</span>
+
+          <h3 class="article-card__title">
+            John Wick 5 : ce que l'on sait déjà sur la suite
+          </h3>
+          <a
+            class="article-card__image-link"
+            href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQcnFrR2hGVnpsdGJncFg3d2RCM3o2azlobC11dFlLWGF4LUJkWHZmcmRya1hKNGNfSV9DNHdxX0ZBOGJpaXJkendsbXV3Q2t1RmdDTENHN2phWWlubDJITHRMdzFEeXg2QllyUEJWaExCdGNadzNxanlnME5jNk1JSVJsdmhCdUpJbGs2NmpTUVFNN0JCQjQ4RDVFdkU1akk?oc=5"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Lire l’actualité sur John Wick 5 sur IGN"
+          ></a>
+        </div>
+
+        <div class="article-card__metadata">
+          <span class="article-card__date">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+              <path d="M16 2v4M8 2v4M3 10h18"></path>
+            </svg>
+
+            <time datetime="2025-04-10">10 avril 2025</time>
+          </span>
+
+          <span class="article-card__comments">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+              ></path>
+            </svg>
+            28
+          </span>
+        </div>
+      </article>
+    </section>
+
+    <section class="tests-avis" id="tests-avis">
+      <div class="tests-avis__heading">
+        <div>
+          <span class="tests-avis__eyebrow">La rédaction Play &amp; Watch</span>
+          <h2>Tests &amp; avis</h2>
+          <p>
+            Nos retours sur les jeux, les films et les équipements qui font
+            l’actualité de nos trois univers.
+          </p>
+        </div>
+        <span class="tests-avis__note">Des avis indépendants, signés par notre équipe</span>
+      </div>
+
+      <div class="tests-avis__grid">
+        <article class="review-card review-card--gaming">
+          <span class="review-card__category">Test jeu vidéo</span>
+          <h3>Astro Bot</h3>
+          <p class="review-card__summary">
+            Une aventure de plateforme inventive et généreuse, portée par des
+            niveaux pleins de surprises et une prise en main immédiate.
+          </p>
+          <div class="review-card__verdict">
+            <strong>9/10</strong>
+            <span>Notre verdict</span>
+          </div>
+        </article>
+
+        <article class="review-card review-card--cinema">
+          <span class="review-card__category">Avis cinéma</span>
+          <h3>Dune : Deuxième Partie</h3>
+          <p class="review-card__summary">
+            Une fresque de science-fiction spectaculaire, à voir pour son
+            univers visuel et ses scènes d’action impressionnantes.
+          </p>
+          <div class="review-card__verdict">
+            <strong>8,5/10</strong>
+            <span>Notre avis</span>
+          </div>
+        </article>
+
+        <article class="review-card review-card--sport">
+          <span class="review-card__category">Test sport</span>
+          <h3>Nike Pegasus 41</h3>
+          <p class="review-card__summary">
+            Une chaussure de running polyvalente et confortable pour les sorties
+            quotidiennes, avec un amorti équilibré sur route.
+          </p>
+          <div class="review-card__verdict">
+            <strong>8/10</strong>
+            <span>Notre test</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div>
+        <h2>Une seule passion, trois univers</h2>
+        <p>Restez connecté et ne manquez rien !</p>
+      </div>
+
+      <form>
+        <input
+          type="email"
+          name="email"
+          placeholder="Votre adresse e-mail"
+          aria-label="Votre adresse e-mail"
+          required
+        >
+        <button type="submit">S'abonner</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
